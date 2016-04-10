@@ -1,4 +1,4 @@
-language: cpp
-script:
-  - g++ --version
-  - g++ -Wall -Wextra -pedantic src/test.cpp && ./a.out
+language: java
+jdk:
+  - openjdk6
+  - openjdk7
